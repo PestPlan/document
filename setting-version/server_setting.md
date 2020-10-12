@@ -30,6 +30,11 @@
 * Allow firewall on port tcp/2181 to connect to Zookeeper.
 * Allow firewall on port tcp/8181 and tcp/50000 to connect to Jenkins.
 
-## 4. Consumer Serer
+## 4. Consumer Server
 ### Install
 * Maven
+* Docker + Elasticsearch
+
+### GCP settings
+* Reserve an external IP to access from customers or users.   
+* Allow firewall on port tcp/9200 to connect to Elasticsearch.
