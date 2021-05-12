@@ -36,7 +36,7 @@ myid 파일 안에는 서버의 id에 해당하는 숫자만 적혀있으면 된
 ```
 > vi ~/src/kafka/config/server.properties
 ```
-아래의 내용을 찾아 수정해주자.
+아래의 내용을 찾아 수정한다.
 ```
 // 서버 data/myid의 값으로 세팅
 broker.id=1
